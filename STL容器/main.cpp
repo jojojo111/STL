@@ -5,6 +5,31 @@
 
 using namespace std;
 
+
+/*
+1.容器
+1.1顺序容器
+vector 矢量容器，封装一维数组
+list 双向链表容器  双向链表  
+deque  双端队列容器  双端队列
+1.2关联容器
+set  单纯集合 #include<set>
+multiset  多重集合
+map  单映射容器  key-value键值对不允许键值对重复，一对一
+mulimap  多重映射  key-value 允许键值重复，一对多
+1.3容器适配器
+stack  FILO
+queue  FIFO
+priority_queue
+
+2.迭代器
+
+3.泛型算法
+4.函数对象
+5.适配器
+6.空间配置器
+
+*/
 /*
 顺序容器：
 vector  一维数组 push_back()尾插  push_front() 不提供（时间复杂度太高）
